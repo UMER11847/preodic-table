@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<title>APPLICATION FORM </title>
+<style>
+body {
+    background-color: #e2eefa;
+   }
+   .heading1{
+       font-family: 'Courier New', Courier, monospace;
+   }
+   #birthdate{
+    border: none; 
+    border-bottom: 2px solid black;
+    outline: none;
+    background-color: #e2eefa ;
+   }
+   #address{
+    border: none; 
+    border-bottom: 2px solid black;
+    outline: none;
+    background-color: #e2eefa ;
+   }
+   #phoneno{
+    border: none; 
+    border-bottom: 2px solid black;
+    outline: none;
+    background-color: #e2eefa ;
+   }
+   #email{
+    border: none; 
+    border-bottom: 2px solid black;
+    outline: none;
+    background-color: #e2eefa ;
+   }
+   #idno{
+    border: none; 
+    border-bottom: 2px solid black;
+    outline: none;
+    background-color: #e2eefa ;
+   }
+   #socialno{
+    border: none; 
+    border-bottom: 2px solid black;
+    outline: none;
+    background-color: #e2eefa ;
+   }
+   #occup{
+    border: none; 
+    border-bottom: 2px solid black;
+    outline: none;
+    background-color: #e2eefa ;
+   }
+   .border1{
+       border-color: #4d8297;
+
+   }
+   .border{
+      border-color:  #4d8297;
+
+   }
+   .text{
+       border: none; 
+       border-bottom: 2px solid black;
+       outline: none;
+       background-color: #e2eefa ;
+   }
+   #choice{
+       border: none; 
+       border-bottom: 2px solid black;
+       outline: none;
+       background-color: #e2eefa ;
+   }
+   #choic{
+       border: none; 
+       border-bottom: 2px solid black;
+       outline: none;
+       background-color: #e2eefa ;
+   }
+   #choi{
+       border: none; 
+       border-bottom: 2px solid black;
+       outline: none;
+       background-color: #e2eefa ;
+   }
+   #unit{
+       border: none; 
+       border-bottom: 2px solid black;
+       outline: none;
+       background-color: #e2eefa ;
+   }
+   #anual{
+       border: none; 
+       border-bottom: 2px solid black;
+       outline: none;
+       background-color: #e2eefa ;
+   }
+   #cash{
+       border: none; 
+       border-bottom: 2px solid black;
+       outline: none;
+       background-color: #e2eefa ;
+   }
+   #medical{
+       border: none; 
+       border-bottom: 2px solid black;
+       outline: none;
+       background-color: #e2eefa ;
+   }
+   .terms{
+       color: #4d8297;
+   }
+   .date{
+    position: absolute;
+    right: 0px;
+    margin-right:5% ;
+   
+   
+   }
+   .sign{
+       position: absolute;
+       right: 0px; 
+       margin-right:5% ;
+    
+   }
+   
+   #date{
+        border: none;
+       border-bottom: 2px solid black;
+       outline: none;
+       background-color: #e2eefa ;
+       width: 190px;
+   }
+   
+</style>
+
+
+<body>
+
+    <h2 class="heading1"> APPLICATION FORM </h2>
+   
+    <h3 style="background-color: #6586a5;"> A.General Question </h3>
+
+ 
+        <div>
+        <label for="birthdate" class="birthdate">Birth Date:</label>
+        <input type="text" name="birth" id="birthdate" placeholder="date of birth"> 
+        &emsp;
+        <label for="gender" class="gender">Gender</label>
+        <input type="radio" name="forgender" id="gender">Male
+        <input type="radio" name="forgender" id="gender">Female
+    </div>
+    <br />
+    <div>
+        <label for="address">Address:</label>
+        <input type="text" name="foraddress" id="address" placeholder="R-234,Sec.15-B">
+    </div>
+    <br />
+    <div>
+        <label for="phoneno">Phone Number:</label>
+        <input type="number" name="forphone" id="phoneno" placeholder="03322316248" maxlength="11">
+        &emsp;
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email" placeholder="xyz@gmail.com">
+    </div>
+    <br />
+    <div>
+        <label for="idno">ID Number:</label>
+        <input type="number" name="id" id="idno" placeholder="11111-1111111-1" 
+        maxlength="15" size="15">
+        &emsp;
+        <label for="socialno">Social Security Number:</label>
+        <input type="number" name="socialno" id="socialno" placeholder="AAA-GG-SSSS">
+    </div>
+    <br />
+    <div>
+        <label for="status">Status:</label>
+        <input type="radio" name="status" id="status">single
+        <input type="radio" name="status" id="statu">Married
+        <input type="radio" name="status" id="stat">Devorced
+        <input type="radio" name="status" id="sta">Others
+    </div>
+    <br />
+    <div>
+        <label for="occup">Occupationo:</label>
+        <input type="text" name="fff" id="occup">
+        &emsp;
+        <label for="retire">Are you retiree ?</label>
+        <input type="checkbox" name="retire" id="retire">YES
+        <input type="checkbox" name="retire" id="retire">NO
+    </div>
+    <br />
+<h2 style="background-color: #6586a5;">B.Type Of Health Coverage</h2>
+<br />
+<form>
+    <table border="2px " >
+       <tr class="border1" >
+           <td>
+           <label for="employee">Employee</label>
+           <input type="checkbox" name="emp" id="employee">YES
+           <input type="checkbox" name="emp" id="employee">NO
+           <br />
+           <label for="choice">Plan Choice:</label>
+           <input type="text" name="choic" id="choice">
+       </td>
+       <td>
+           <label for="spouse">Spouse:</label>
+           <input type="checkbox" name="sp" id="spouse">YES
+           <input type="checkbox" name="sp" id="spouse">NO
+           <br />
+           <label for="choic">Plan Choice:</label>
+           <input type="text" name="choice" id="choic">
+       </td>
+       <td>
+       <label for="child">Children</label>
+       <input type="checkbox" name="ch" id="child">YES
+       <input type="checkbox" name="ch" id="child">NO
+       <br />
+       <label for="choi">Plan Choice:</label>
+       <input type="text" name="choie" id="choi">
+   </td>
+       </tr>
+    </table>
+    <br />
+<p>Complete if spouse/children are propsed for insurance</p>
+<br />
+<table border="2px">
+   <thead>
+       <tr class="border">
+           <td>NAME</td>
+           <td>SSN NO.</td>
+           <td>BIRTH DATE</td>
+           <td>AGE</td>
+           <td>SEX</td>
+       </tr>
+   </thead>
+   <tbody>
+       <tr class="border">
+           <td><input type="text" class="text"></td>
+           <td><input type="text" class="text"></td>
+           <td><input type="date" class="text"></td>
+           <td><input type="text" class="text"></td>
+           <td><input type="text" class="text"></td>
+       </tr>
+   </tbody>
+   <tbody>
+       <tr class="border">
+           <td><input type="text" class="text"></td>
+           <td><input type="text" class="text"></td>
+           <td><input type="date" class="text"></td>
+           <td><input type="text" class="text"></td>
+           <td><input type="text" class="text"></td>
+       </tr>
+   </tbody>
+   <tbody>
+       <tr class="border">
+           <td><input type="text" class="text"></td>
+           <td><input type="text" class="text"></td>
+           <td><input type="date" class="text"></td>
+           <td><input type="text" class="text"></td>
+           <td><input type="text" class="text"></td>
+       </tr>
+   </tbody>
+   <tbody>
+       <tr class="border">
+           <td><input type="text" class="text"></td>
+           <td><input type="text" class="text"></td>
+           <td><input type="date" class="text"></td>
+           <td><input type="text" class="text"></td>
+           <td><input type="text" class="text"></td>
+       </tr>
+   </tbody>
+</table>
+<br />
+</form>
+    <h2 style="background-color: #6586a5;">C.The Policy</h2>
+    <form>
+        <div>
+        <label for="unit">Units:</label>
+        <input type="text" name="unit" id="unit">
+        &emsp;
+        <label for="anual">Anual Premium:</label>
+        <input type="text" id="anual">
+    </div>
+        <br />
+        <div>
+        <label for="pay">Payment Method:</label>
+        <input type="checkbox" name="pay" id="pay">Annual
+        <input type="checkbox" name="pay" id="pay">Semi-Annual
+        <input type="checkbox" name="pay" id="pay">Monthly PAT
+    </div>
+        <br />
+        <div>
+        <label for="cash">Cash with application: $</label>
+        <input type="text" name="cash" id="cash">
+    </div> 
+        <br />
+        <div>
+        <label for="medical">Planned medical premium: $</label>
+        <input type="text" name="medical" id="medical">
+    </div>
+    </form>
+    <br />
+        <div  class="date">
+            <label for="date">Date:</label>
+            <input type="text" id="date">
+        </div>
+        <br />
+        <br />
+        <div class="sign">
+            <label>Signature</label>
+        <textarea name="sign" id="sign" cols="25" rows="4"></textarea>
+        </div>
+        
+
+    <p class="terms">Terms & Conditions
+<br />
+        Improvement should be measured regularly and assessed
+         in <br />order for you to know what's beneficial and what is not.
+         <br />This will help you set new targets.</p>
+</form>
+</body>
+
+</html>
